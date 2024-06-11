@@ -101,10 +101,21 @@ header a{
     cursor: pointer;
 }
 
+.carousel .list .item .content button:hover{
+    background: white;
+    border: 1px solid white;
+    transform: translateX(-8px);
+}
+
+
 .carousel .list .item .content button:nth-child(2){
     background-color: transparent;
     color: white;
     border: 1px solid white;
+}
+
+.carousel .list .item .content button:nth-child(2):hover{
+    transform: translateX(8px);
 }
 /* thumbnail */
 .thumbnail{
