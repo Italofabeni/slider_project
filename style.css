@@ -79,9 +79,15 @@ header a{
 
 .des{
     color: rgb(255, 255, 255);
+    text-align: start;
     font-style: oblique;
     font-family:  "Oswald", oblique #000;
-    text-shadow: 5px 2px 2px black;
+    font-size:  16px;
+    text-shadow: 1px 0px 0px black;
+    padding: 0px 10px 0px;
+    background-color: #5e5c5cd5;
+    border-radius: 5px;
+    border: 2px solid #f8f3f3c0;
 }
 
 .carousel .list .item .content .buttons{
